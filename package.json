@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "description": "Playing around with the NASA API",
   "main": "backend/server.js",
-  "type":"module",
-
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js"
   },
   "engines": {
-    "node": "14.17.1",
-    "npm": "6.14.13"
+    "node": "16.13.2",
+    "npm": "8.1.2"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,7 @@
   "homepage": "https://github.com/EXSaunders/NASA-API-Project#readme",
   "dependencies": {
     "dotenv": "^16.0.0",
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "mongoose": "^6.2.6"
   }
 }
